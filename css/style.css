@@ -3,19 +3,21 @@ font-family: "Roboto", sans-serif;
 font-style: normal;
 font-size: 16;
 line-height: 24px;
-color: black;
-background-color: #4a3506;
+color: rgb(255, 255, 255);
+background: url("../img/zadnik.png") no-repeat;
+background-position: top;
+background-attachment: fixed;
 padding: 0;
 margin: 0;
 }
 
 .page-header {
-	width: 1170px;
+	width: 1000px;
 	display: flex;
 	margin: 0 auto;
   padding: 20px 55px;
 	margin-bottom: 40px;
-background-color: #e7c081;
+  background-color: #7e296eea;
 }
 
 .main-nav {
@@ -30,7 +32,7 @@ display: flex;
 }
 
 .site-navigation {
-  width: 559px;
+  width: 420px;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -54,7 +56,6 @@ display: flex;
   text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
-  color: black;
 }
 
 
@@ -64,15 +65,15 @@ display: flex;
   margin-left: 34px;
   margin-top: auto;
   margin-bottom: auto;
-  background-color: rgb(241, 212, 187);
+  background-color: #7e296eea;
 }
 
 .main-content {
-  width: 1170px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 55px;
   margin-bottom: 40px;
-  background-color: #e7c081;
+  background-color: #7e296eea;
 }
 
 h1 {
@@ -101,11 +102,12 @@ h2 {
   text-underline-position: under;
 }
 .menu {
-  width: 1170px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0;
+  padding-bottom: 40px;
   margin-bottom: 40px;
-  background-color: #e7c081;
+  background-color: #7e7d7c;
 }
 
 .menu-cards {
@@ -119,10 +121,10 @@ h2 {
 }
 
 .menu-card {
-	width: 250px;
+	width: 225px;
 	padding: 30px;
   padding-bottom: 10px;
-	background-color: #FDFDFF;
+	background-color: #a0a0a0;
 	box-shadow: 0px 4px 30px rgba(22, 49, 82, 0.12);
 }
 
@@ -130,13 +132,14 @@ h2 {
   width: 190px;
   display: block;
   padding: 0;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 .card-price {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .add-to-cart {
@@ -146,7 +149,7 @@ padding: 0;
 }
 
 .contacts {
-	margin-bottom: 0;
+	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
@@ -154,7 +157,9 @@ padding: 0;
 
 .contacts-content {
 	width: 400px;
-	padding-top: 50px;	
+	padding-top: 20px;
+  padding-left: 10px;
+  padding-right: auto;	
 }
 
 .contact-items {
@@ -193,7 +198,7 @@ padding: 0;
 .contact-item address, a {
 	font-style: normal;
 	line-height: 22px;
-	color: #163152;
+	color: #ffffff;
 	text-decoration: none;
 }
 
